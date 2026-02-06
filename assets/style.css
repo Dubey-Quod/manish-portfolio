@@ -174,19 +174,14 @@ h1{margin:14px 0 10px; font-size:44px; line-height:1.15}
   max-width:340px;
   aspect-ratio:1/1;
   object-fit:cover;
+  filter: contrast(1.05) brightness(1.03) saturate(0.95);
   border-radius:20px;
   display:block;
   margin: 0 auto;
   border:1px solid rgba(255,255,255,.18);
 }
 .glow{
-  position:absolute;
-  inset:-40%;
-  background: radial-gradient(circle at 30% 20%, rgba(124,92,255,.55), transparent 55%),
-              radial-gradient(circle at 75% 40%, rgba(39,214,255,.45), transparent 60%);
-  filter: blur(22px);
-  transform: rotate(18deg);
-  pointer-events:none;
+display: none;
 }
 
 .quickLinks{
